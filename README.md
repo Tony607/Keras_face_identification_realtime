@@ -27,6 +27,12 @@ pip3 install -r requirements.txt
 ```
 
 ## Run the demo
+First run this to generate images from video files and precompute face features
+```
+face_identify_demo.py
+```
+Then run the real time demo,
 ```
 python face_identify_demo.py
 ```
+For more info, check out my [write up](https://www.dlology.com/blog/live-face-identification-with-pre-trained-vggface2-model/).
